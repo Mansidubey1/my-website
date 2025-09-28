@@ -1,0 +1,15 @@
+:root {
+--accent: #0b72b9 ;
+--muted: #666 ;
+--bg: #f7f9fc ;
+--card: #ffffff ;
+--radius: 12px ;
+} 
+
+*{box-sizing: border-box} 
+html, body {heigth: 100% ; margin: 0 ; font-family : Inter , system-ui , -apple-system , 'Segoe UI ' , Roboto , 'Helvetica Neue ' , Arial ; color: #222 ; background: var(--bg) } 
+.container { max-width:1000px ; margin:30px auto; padding:20px } 
+header {display:flex ; align-items :center ; justify-content:space-btween; gap:20px } 
+.brand{ display:flex ; align-items:center ; gap:12px } 
+.logo{ widtth: 48px ; height:48px ; border-radius: 10px ; background:linear-gradient(135deg, var(--accent), #3aa0ff) ; display: flex ; align-items:center ; justify-content: conter; color: white ; font-weight: 700}
+nav a { margin:0 8px ; text-decoration:none ; color:var(--muted) ; paddinng:8px 12px ; border-radius:8px }
